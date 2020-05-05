@@ -61,6 +61,9 @@
   }
 .menu li{
     margin-right: 64px;
+    &:hover{
+        background:$color-secondary;
+    }
     @include pad{
         margin-right: 40px;
     }
